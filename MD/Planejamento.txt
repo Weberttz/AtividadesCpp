@@ -1,0 +1,59 @@
+## Análise Combinatória
+
+A ordem importa?
+
+* Se sim, podemos usar:
+
+    * Permutações: para calcular quantidades de maneiras que podemos dispor pessoas em uma fila,
+    ou anagramas. Utiliza todos os elementos.
+
+    * Arranjo: utilizado quando há ordem, em pódios ou cargos por exemplo. Utiliza só alguns elementos.
+
+* Se não, podemos usar:
+
+    * Combinação simples: utilizada para calcular a quantidade de combinações de roupas, etc. Não repete
+    elementos.
+
+    * Combinação completa: utilizada pra calcular maneiras de criar um sorvete. Repete elementos.
+
+## Quantidade de divisores de um número
+
+Para calcular a quantidade de divisores de um número, precisamos fatorá-lo e após isso analisar os expoentes de cada fator primo.
+
+    244|2           A = {0,1,2}
+    122|2           B = {0,1}
+     61|61                  
+      1|----------
+       | 2^3 . 3 . 11 -> #divisores = n(A) . n(B) = 3.2 = 6
+
+    #divisores ímpares = n(B) = 2, #pares = #divisores - #divisores ímpares = 6 - 2 = 4
+
+    D = {1,2,4, 61, 122, 244}
+
+## Binômio de Newton
+
+    *(a + b)^n = a^n . b^0 + a^{n-1} . b^1 + ...... + a^1 . b{n-1} + a^0 . b^n
+
+* Triângulo de Pascal 
+
+    1
+    1 1
+    1 2 1
+    1 3 3 1
+    1 4 6 4 1
+    1 5 10 10 5 1
+    1 6 15 20 15 6 1
+
+## Princípio da Indução Finita
+
+se deseja provar que funciona para qualquer número, e dada a hipótese de indução para n. Prove que funciona para 1(caso base)
+e para n+1(tese), usando sua hipótese de indução.
+
+## Princípio da Inclusão e Exclusão
+
+Seja 2 conjuntos A e B, se deseja calcular a união -> n(AUB) = n(A) + n(B) - n(A^B)
+Para 3 conjuntos: n(AUBUC) = n(A) + n(B) + n(C) - n(A^B) - n(A^C) - n(B^C) + n(A^B^C)
+Para 4 conjuntos: n(AUBUCUD) = n(A) + n(B) + n(C) +n(D) - n(A^B) - n(A^C) - n(A^D) - n(B^C) - n(B^D) - (C^D) 
++ n(A^B^C) + n(A^B^D) + n(A^C^D) + n(B^C^D) - n(A^B^C^D)
+
+##Princípio da Casa dos Pombos 

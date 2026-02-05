@@ -1,0 +1,10 @@
+1. Escreva um programa que calcula Permutações Simples
+2. Escreva um programa que calcula Permutações com Repetição
+3. Escreva um programa que calcula Combinações Simples
+4. Escreva um programa que calcula Arranjos
+5. Escreva um programa que calcula Combinações Completas/com Repetição
+6. Crie um programa que calcula o Binômio de Newton
+7. Crie um programa que imprime o Triângulo de Pascal
+8. Crie um programa que calcula a quantidade de divisores de um número, mostre a quantidade de pares, 
+ímpares e imprima também esses divisores
+9.

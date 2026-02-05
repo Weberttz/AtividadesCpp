@@ -1,0 +1,13 @@
+Jogo da Velha é um jogo de estratégia para duas pessoas, geralmente jogado com os símbolos X 
+e O em um tabuleiro de 3x3 quadrados. 
+
+Objetivo: Formar uma linha reta com três símbolos iguais — horizontal, vertical ou diagonal — 
+antes do adversário. 
+
+Como jogar:
+Um jogador escolhe X, o outro escolhe O.
+O jogador que começa (X) coloca seu símbolo em um quadrado vazio.
+Os jogadores alternam as jogadas, um símbolo por vez.
+O jogo termina quando:
+Um jogador completa uma linha com três símbolos iguais -> vitória.
+Todos os quadrados estão preenchidos sem que ninguém tenha feito uma linha -> empate (velha)
